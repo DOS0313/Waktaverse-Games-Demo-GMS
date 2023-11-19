@@ -1,7 +1,7 @@
 {
   "resourceType": "GMProject",
   "resourceVersion": "1.7",
-  "name": "API Request TEST",
+  "name": "Wakgames",
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
@@ -35,11 +35,16 @@
     "IDEVersion": "2023.8.2.108",
   },
   "resources": [
+    {"id":{"name":"IWakgamesTokenStorage","path":"scripts/IWakgamesTokenStorage/IWakgamesTokenStorage.yy",},},
+    {"id":{"name":"WakgamesCallbackServer","path":"scripts/WakgamesCallbackServer/WakgamesCallbackServer.yy",},},
     {"id":{"name":"oButton","path":"objects/oButton/oButton.yy",},},
     {"id":{"name":"on_click","path":"scripts/on_click/on_click.yy",},},
     {"id":{"name":"create_button","path":"scripts/create_button/create_button.yy",},},
     {"id":{"name":"get_hover","path":"scripts/get_hover/get_hover.yy",},},
+    {"id":{"name":"WakgamesAuth","path":"scripts/WakgamesAuth/WakgamesAuth.yy",},},
+    {"id":{"name":"Wakgames","path":"scripts/Wakgames/Wakgames.yy",},},
     {"id":{"name":"oManager","path":"objects/oManager/oManager.yy",},},
+    {"id":{"name":"WakgamesDefaultTokenStorage","path":"scripts/WakgamesDefaultTokenStorage/WakgamesDefaultTokenStorage.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
